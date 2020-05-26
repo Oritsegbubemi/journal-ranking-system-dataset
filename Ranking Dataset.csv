@@ -1,4 +1,4 @@
-Scopus Source ID,Subject Area,Index,Publisher,Percentile,Frequency,Open Access,Review Time
+scopus_source_id,subject_area,index,publisher,percentile,frequency,open_access,review_time
 11900154400,General Computer Science,Scopus,Others,60,Bi-monthly,NO,12 weeks
 12100154817,General Computer Science,Scopus,Inderscience,22,Bi-monthly,NO,12 weeks
 12100154833,General Computer Science,Scopus,ACM,75,Bi-annually,NO,6 weeks

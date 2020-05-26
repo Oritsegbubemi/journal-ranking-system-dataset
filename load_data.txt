@@ -1,0 +1,14 @@
+CREATE TABLE PUBLIC.RANKING(
+	scopus_source_id	CHAR(20)	,
+	subject_area	CHAR(50)	,		
+	index	CHAR(10)	,
+	publisher	CHAR(20)	,
+	percentile	INT	,
+	frequency	CHAR(20)	,
+	open_access	CHAR(10)	,
+	review_time	CHAR(10)	
+);
+
+
+
+COPY PUBLIC.RANKING FROM 'C:\Users\Gbubemi\Documents\#Project\journal-ranking-system-dataset\Ranking Dataset.csv' WITH CSV HEADER;
