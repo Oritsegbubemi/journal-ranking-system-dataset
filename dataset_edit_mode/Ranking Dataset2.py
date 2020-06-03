@@ -197,7 +197,7 @@ def ranking_dataset():
     
     
     #Export to csv
-    journal.to_csv(r'C:\Users\Gbubemi\Documents\#Project\dataset_edit_mode\User_Dataset.csv', index=False) 
+    journal.to_csv(r'C:\Users\Gbubemi\Documents\#Project\journal-ranking-system-dataset\dataset_edit_mode\User_Dataset.csv', index=False) 
                
     print("File has been exported")
     print("End of the code")

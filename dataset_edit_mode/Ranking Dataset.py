@@ -5,12 +5,10 @@ This is the pythonic version of the ranking dataset jupyter notebook
 # In[1]: Import Libraries
 import numpy as np
 import pandas as pd
-#get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[2]: Insert the csv file
 journal = pd.read_csv('Ranking Dataset.csv')
-journal.head(2)
 
 
 # In[3]: Subject Area
@@ -207,11 +205,10 @@ for i in rank_review_time:
 
 
 #Export to csv
-journal.to_csv(r'C:\Users\Gbubemi\Documents\#Project\dataset_edit_mode\User_Dataset.csv', index=False) 
+journal.to_csv(r'C:\Users\Gbubemi\Documents\#Project\journal-ranking-system-dataset\dataset_edit_mode\User_Dataset.csv', index=False) 
                
 print("File has been exported")
 print("End of the code")
-
 
 
 

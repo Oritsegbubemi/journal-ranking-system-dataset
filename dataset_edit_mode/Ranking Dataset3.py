@@ -16,8 +16,6 @@ review_time = dict()
 
 
 def user_ranking_dataset(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z):
-    import pandas as pd 
-    journal = pd.read_csv('Ranking Dataset.csv')
     
     #subject_area_function
     def user_subject_area():
@@ -115,7 +113,6 @@ ranking = user_ranking_dataset(
         n=4, o=1, p=2, q=3, r=4, s=5, t=1, u=2, v=1, w=2, x=3, y=4, z=5)
 print("Rankings: ", ranking)
 
-print(percentile)
 ###############################################################################
 def ranking_dataset():
     
@@ -182,7 +179,7 @@ def ranking_dataset():
                 rank_review_time.replace(i,review_time[key], inplace=True)
                 
     
-    journal.to_csv(r'C:\Users\Gbubemi\Documents\#Project\dataset_edit_mode\User_Dataset.csv', index=False) 
+    journal.to_csv(r'C:\Users\Gbubemi\Documents\#Project\journal-ranking-system-dataset\dataset_edit_mode\User_Dataset.csv', index=False) 
                    
     print("File has been exported")
     print("End of the code")
