@@ -1,1 +1,0 @@
-CREATE TABLE Public."user_acct"(scopus_source_id varchar(20), title varchar(100), citesore varchar(10), percentile varchar(10))
